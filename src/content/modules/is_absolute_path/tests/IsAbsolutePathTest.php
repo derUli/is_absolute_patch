@@ -1,5 +1,5 @@
 <?php
-class isAbsolutePathTest extends PHPUnit_Framework_TestCase {
+class isAbsolutePathTest extends \PHPUnit\Framework\TestCase {
 	public function testIsAbsolutePathUnix() {
 		$this->assertTrue ( is_absolute_path ( "/" ) );
 		$this->assertTrue ( is_absolute_path ( "/var/www/html/index.html" ) );
